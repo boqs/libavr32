@@ -43,9 +43,6 @@ void timer_reset(softTimer_t* timer);
 void timer_reset_set(softTimer_t* timer, u32 ticks);
 void timer_manual(softTimer_t* timer);
 
-void pause_timers (void);
-void start_timers (void);
-
 u32 time_now(void);
 void time_clear(void);
 
